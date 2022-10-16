@@ -1,0 +1,77 @@
+@font-face{
+	font-family: 'JosefinSans-Regular';
+	src: url('../fonts/JosefinSans-Regular.ttf');
+	/*style: Regular;*/
+}
+
+@font-face{
+	font-family: 'JosefinSans-Bold';
+	src: url('../fonts/JosefinSans-Bold.ttf');
+	/*style: Bold;*/
+}
+
+@font-face{
+	font-family: 'JosefinSans-BoldItalic';
+	src: url('../fonts/JosefinSans-BoldItalic.ttf');
+	/*style: BoldItalic;*/
+}
+
+@font-face{
+	font-family: 'JosefinSans-Italic';
+	src: url('../fonts/JosefinSans-Italic.ttf');
+	/*style: Italic;*/
+}
+
+@font-face{
+	font-family: 'JosefinSans-Light';
+	src: url('../fonts/JosefinSans-Light.ttf');
+	/*style: Light;*/
+}
+
+@font-face{
+	font-family: 'JosefinSans-LightItalic';
+	src: url('../fonts/JosefinSans-LightItalic.ttf');
+	/*style: LightItalic;*/
+}
+
+@font-face{
+	font-family: 'Oswald-Regular';
+	src: url('../fonts/Oswald-Regular.ttf');
+	/*style: Regular;*/
+}
+
+@font-face{
+	font-family: 'Oswald-Bold';
+	src: url('../fonts/Oswald-Bold.ttf');
+	/*style: Bold;*/
+}
+
+@font-face{
+	font-family: 'Oswald-Light';
+	src: url('../fonts/Oswald-Light.ttf');
+	/*style: Light;*/
+}
+
+@font-face{
+	font-family: 'Raleway-Regular';
+	src: url('../fonts/Raleway-Regular.ttf');
+	/*style: Regular;*/
+}
+
+@font-face{
+	font-family: 'Raleway-Bold';
+	src: url('../fonts/Raleway-Bold.ttf');
+	/*style: Bold;*/
+}
+
+@font-face{
+	font-family: 'Raleway-Italic';
+	src: url('../fonts/Raleway-Italic.ttf');
+	/*style: Italic;*/
+}
+
+@font-face{
+	font-family: 'Acme';
+	src: url('../fonts/Acme.ttf');
+	/*style: Regular;*/
+}

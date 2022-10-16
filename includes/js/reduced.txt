@@ -1,0 +1,6 @@
+15th DECEMBER, 2019
+=>search.js (for fetching the text from search bar; shifted to reaction.js)
+=>redirect.js (for redirecting the page according to a given condition; shifted to reaction.js)
+
+=>duplicate_filter.js (for filtering out any duplicate relatives; shifted to stage.js)
+=>additional_info.js (for fetching additional_info of the actor/performer; shifted to stage.js)

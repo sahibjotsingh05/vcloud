@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    color: black;
+}
+
+.effect_holder{
+    width: 100vw;
+    height: 100%;
+    opacity: 0;
+    z-index: 3;
+}
+
+.left_exit, .right_exit{
+    height: 100vh;
+    width: 50%;
+    overflow: hidden;
+}
+
+.left_exit{
+    float: left;
+    background-color: red;
+}
+
+.right_exit{
+    float: right;
+}
+
+.content_left, .content_right{
+    height: 100vh;
+    line-height: 100vh;
+    font-family: 'JosefinSans-Regular';
+    text-align: center;
+}
+
+.content_left{
+    font-size: 30em;
+    color: white;
+}
+
+.content_right{
+    font-size: 10em;
+}
+
+#message{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2%;
+    margin: 2%;
+}
+
+.login_page{
+    display: none;
+    opacity: 0;
+}
+
+#log{
+    position:absolute;
+    float: left;
+    top:50%;
+    left:50%;
+    min-width: 500px; 
+    width:30%;
+    background: white;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 20px;
+}
+
+#log h1{
+    text-align: center;
+    padding-top:60px; 
+}
+
+#log h5{
+    text-align: right;
+    padding-right:20px; 
+    margin-bottom:20px;
+}
+
+#log a{
+    cursor:pointer;
+    color:black;
+    text-decoration: none;
+}
+
+#submit, label, input{
+    display: block;
+}
+
+label{
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+input[type="text"],input[type="email"],input[type="password"],input[type="submit"],select,input[type="textarea"],input[type="date"]{
+    margin-left: 10%;
+    margin-top:20px;
+    width: 85%;
+    height: 5vh;
+    outline:none;
+}
+
+input[type="text"],input[type="email"],input[type="password"],select,input[type="textarea"],input[type="date"]{
+    margin-top:2.5%;
+    margin-bottom:2.5%;
+    background:transparent;
+    border:none;
+    border-bottom: black 2px solid;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    background: #ff0f00;
+    width: 50% !important;
+    margin-left: 25% !important;
+    color: white; 
+    cursor: pointer;
+    margin-bottom: 20px; 
+    border: 2px #ff0f00 solid;
+}

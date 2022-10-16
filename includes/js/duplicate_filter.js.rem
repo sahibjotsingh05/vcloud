@@ -1,0 +1,22 @@
+//THIS CODE HAS BEEN SHIFTED TO stage.js
+
+
+// $(document).ready(function(){
+// // FOR FILTERING OUT ANY DUPLICATE ENTRY
+//    for(var i = 0; i < $(".related_video").length; i++){
+//    		var current_1_id = $(".related_video").eq(i).attr('id');
+//    		var current_1_name = $(".related_video").eq(i).siblings('.name').text();
+//    		for(var j = $(".related_video").length - 1; j > i; j--){
+//    			var current_2_id = $(".related_video").eq(j).attr('id');
+
+//    			if(current_1_id == current_2_id){
+//    				console.log('FOUND AT :-', j, 'FOUND FOR :-', current_1_name);
+//    				$(".related_video").eq(j).parent().remove();
+//    			}
+//    		}
+//    }
+
+//    if($(".relatives").html().length==0){
+//    		$(".relatives").html('No Relations Found');
+//    }
+// });

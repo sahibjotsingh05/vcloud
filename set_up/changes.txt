@@ -1,0 +1,17 @@
+29th NOVEMBER, 2019. Friday;
+
+FILES CHANGED:-
+	
+	function.sql;
+	table.sql :- CHANGED THE 'DATE' DATATYPE TO 'DATETIME' DATATYPE;
+	auto_all.php :- ADDED auto_server_detail(), CHANGED THE 'DATE' DATATYPE TO 'DATETIME' DATATYPE;
+	connection.php :- ADDED A COMMAND TO SHOW ERROR ON CONNECTION ERROR;
+	login.css :- CHANGE #message's CSS;
+
+
+3rd December, 2019. Tuesday;
+
+FILES CHANGED:-
+	
+	function.sql :- FIXED TABLE NAME;
+	navigation.php :- FIXED THE URL FOR keyword_pending.php (This fixes the 'search' problem);

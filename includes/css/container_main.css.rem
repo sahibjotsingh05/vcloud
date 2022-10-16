@@ -1,0 +1,151 @@
+/* THIS CODE HAS BEEN SHIFTED TO style.css */
+
+
+/* .tiles {
+    display: grid;
+    padding: 3%;
+    grid-gap: 4%;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 210px);
+    grid-auto-rows: auto;
+}
+
+.tile {
+    width: 230px;
+    height: auto;
+    transition: 0.5s;
+    border: 1px #a7a7a7 solid;
+}
+
+.tile:hover {
+    box-shadow: 0px 0px 6px gray;
+}
+
+.tile .video {
+    width: 230px;
+    height: 118px;
+    object-fit: fill;
+}
+
+.tile .vid_name_dis {
+    display: block;
+    margin: 2%;
+    padding: 3%;
+    font-size: 1em;
+    font-weight: 550;
+    letter-spacing: .6px;
+}
+
+.stage {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+.actor {
+    display: inline-block;
+    width: 70%;
+    height: auto;
+    margin: 2%;
+}
+
+.actor .performing {
+    width: 100%;
+    height: 484px;
+    object-fit: fill;
+}
+
+.actor #name {
+    display: inline-block;
+    margin: 2%;
+    padding: 1%;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.additional_info {
+    display: grid;
+    float: right;
+    position: relative;
+    right: 2%;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: 40px 30px;
+}
+
+.performer_view_holder {
+    align-self: center;
+    justify-self: center;
+    grid-row: 1;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.performer_upload_date_holder {
+    justify-self: end;
+    grid-row: 2;
+    color: grey;
+    font-size: 14px;
+}
+
+.performer_upload_date_holder:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bookmark,
+.bookmarked {
+    grid-column: 2;
+    display: block;
+    align-self: center;
+    justify-self: end;
+    width: 30px;
+    height: 30px;
+}
+
+.bookmark {
+    background: url('../media/icons/bookmark.svg');
+}
+
+.bookmarked {
+    background: url('../media/icons/bookmarked.svg');
+}
+
+.performer_view_holder,
+.performer_upload_date_holder {
+    display: inline;
+}
+
+.relatives {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    /* width: ; *
+    height: auto;
+    margin: 2%;
+    align-items: center;
+    /* overflow-y: scroll; *
+}
+
+.related {
+    width: 200px;
+    height: auto;
+}
+
+.related .video {
+    width: 200px;
+    height: auto;
+}
+
+.related .name {
+    display: block;
+    margin: 2%;
+    padding: 1%;
+    font-size: .8em;
+    font-weight: 600;
+} */

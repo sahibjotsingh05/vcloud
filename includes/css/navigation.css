@@ -1,0 +1,49 @@
+.collapser {
+    margin: 4% 1% 0 0;
+    height: 20px;
+    width: 100%;
+    background: none;
+    border: none;
+    z-index: 1000;
+    outline: none;
+}
+
+.collapser img {
+    float: right;
+    height: 100%;
+    width: 26px;
+    margin-right: 6%;
+}
+
+.aside_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.aside_wrap button {
+    margin: 2% 0;
+    width: 100%;
+    height: 60%;
+    font-size: 1.2em;
+    font-family: 'JosefinSans-Regular';
+    padding: 3%;
+    color: black;
+    text-decoration: none;
+}
+
+.aside_wrap button:hover {
+    /*background:#d2d1d1;*/
+    background: red;
+    color: white;
+}
+
+.aside_wrap button a {
+    text-decoration: none;
+    color: black;
+}
+
+.aside_wrap button:hover a {
+    color: white;
+}

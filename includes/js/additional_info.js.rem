@@ -1,0 +1,12 @@
+//THIS CODE HAS BEEN SHIFTED TO stage.js
+
+
+// $(document).ready(function() {
+//     var performer_id = $(".performing").attr('id');
+//     $.post('process_additional_info.php', {
+//         call: true,
+//         vid_id: performer_id
+//     }, function(data) {
+//         $(".additional_info").html(data);
+//     });
+// });
